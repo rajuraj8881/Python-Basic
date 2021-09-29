@@ -33,6 +33,11 @@ import numpy as np
 # plt.show()
 
 #Matplotlib Markers
+# ypoint = np.array([3, 8, 1, 10, 5, 7])
+# plt.plot(ypoint, marker = 'o')
+# plt.show()
+
+#Format Strings fmt
 ypoint = np.array([3, 8, 1, 10, 5, 7])
-plt.plot(ypoint, marker = 'o')
+plt.plot(ypoint, 'o:r')
 plt.show()
