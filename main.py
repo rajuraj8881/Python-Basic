@@ -22,7 +22,12 @@ import numpy as np
 # plt.plot(apoint, bpoint, 'o')
 # plt.show()
 
-xpoint = np.array([1, 2, 6, 8])
-ypoint = np.array([3, 8, 1, 10])
-plt.plot(xpoint, ypoint)
+# xpoint = np.array([1, 2, 6, 8])
+# ypoint = np.array([3, 8, 1, 10])
+# plt.plot(xpoint, ypoint)
+# plt.show()
+
+#Default X-Points
+ypoint = np.array([3, 8, 1, 10, 5, 7])
+plt.plot(ypoint)
 plt.show()
