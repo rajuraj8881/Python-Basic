@@ -43,6 +43,11 @@ import numpy as np
 # plt.show()
 
 #Marker Size
+# ypoints = np.array([3, 8, 1, 10])
+# plt.plot(ypoints, marker = 'o', ms = 20)
+# plt.show()
+
+#Marker Color
 ypoints = np.array([3, 8, 1, 10])
-plt.plot(ypoints, marker = 'o', ms = 20)
+plt.plot(ypoints, marker = 'o', ms = 20, mec = 'r')
 plt.show()
