@@ -28,6 +28,11 @@ import numpy as np
 # plt.show()
 
 #Default X-Points
+# ypoint = np.array([3, 8, 1, 10, 5, 7])
+# plt.plot(ypoint)
+# plt.show()
+
+#Matplotlib Markers
 ypoint = np.array([3, 8, 1, 10, 5, 7])
-plt.plot(ypoint)
+plt.plot(ypoint, marker = 'o')
 plt.show()
