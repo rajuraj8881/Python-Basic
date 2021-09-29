@@ -38,6 +38,11 @@ import numpy as np
 # plt.show()
 
 #Format Strings fmt
-ypoint = np.array([3, 8, 1, 10, 5, 7])
-plt.plot(ypoint, 'o:r')
+# ypoint = np.array([3, 8, 1, 10, 5, 7])
+# plt.plot(ypoint, 'o:r')
+# plt.show()
+
+#Marker Size
+ypoints = np.array([3, 8, 1, 10])
+plt.plot(ypoints, marker = 'o', ms = 20)
 plt.show()
