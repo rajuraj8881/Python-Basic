@@ -53,9 +53,14 @@ import numpy as np
 # plt.show()
 
 
+# ypoints = np.array([3, 8, 1, 10])
+#
+# plt.plot(ypoints, marker = 'o', ms = 20, mec = 'r', mfc = 'r')
+# plt.show()
+
 ypoints = np.array([3, 8, 1, 10])
 
-plt.plot(ypoints, marker = 'o', ms = 20, mec = 'r', mfc = 'r')
+plt.plot(ypoints, marker = 'o', ms = 20, mec = '#4CAF50', mfc = '#4CAF50')
 plt.show()
 
 
