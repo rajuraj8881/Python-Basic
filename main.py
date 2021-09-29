@@ -1,16 +1,14 @@
-# This is a sample Python script.
+# import matplotlib
+# #check matplotlib version
+# print(matplotlib.__version__)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import matplotlib.pyplot as plt
+import numpy as np
 
+xpoint = np.array([0, 0])
+ypoint = np.array([0, 250])
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+plt.plot(xpoint)
+plt.plot(ypoint)
+plt.show()
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
