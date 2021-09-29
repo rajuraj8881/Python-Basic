@@ -12,13 +12,17 @@ import numpy as np
 # plt.plot(ypoint)
 # plt.show()
 
-xpoint = np.array([1, 8])
-ypoint = np.array([6, 6])
+# xpoint = np.array([1, 8])
+# ypoint = np.array([6, 6])
+#
+# apoint = np.array([4, 4])
+# bpoint = np.array([3, 10])
+#
+# plt.plot(xpoint, ypoint, 'o')
+# plt.plot(apoint, bpoint, 'o')
+# plt.show()
 
-apoint = np.array([4, 4])
-bpoint = np.array([3, 10])
-
-plt.plot(xpoint, ypoint, 'o')
-plt.plot(apoint, bpoint, 'o')
+xpoint = np.array([1, 2, 6, 8])
+ypoint = np.array([3, 8, 1, 10])
+plt.plot(xpoint, ypoint)
 plt.show()
-
